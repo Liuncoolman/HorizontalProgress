@@ -1,3 +1,2 @@
-# HorizontalProgress
-![image](https://github.com/Liuncoolman/HorizontalProgress/test.png)
+![image](https://github.com/Liuncoolman/HorizontalProgress/blob/master/test.png)
 
