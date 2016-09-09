@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/general_98px"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="@dimen/general_98px"
+            android:layout_height="@dimen/general_50px"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/left_line"
+                android:layout_width="@dimen/general_23px"
+                android:layout_height="@dimen/general_2px"
+                android:layout_gravity="center_vertical"
+                android:background="@color/red" />
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="@dimen/general_50px"
+                android:layout_height="@dimen/general_50px"
+                android:layout_gravity="center_vertical"
+                android:background="@mipmap/progress_finish"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/right_line"
+                android:layout_width="@dimen/general_23px"
+                android:layout_height="@dimen/general_2px"
+                android:layout_gravity="center_vertical"
+                android:background="@color/red" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/nodeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/general_20px"
+                android:text="取消订单"
+                android:textColor="@color/tv_grey"
+                android:textSize="@dimen/general_22px" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/general_52px"
+        android:layout_height="@dimen/general_50px"
+        android:layout_marginLeft="@dimen/_general_4px"
+        android:layout_toRightOf="@id/ll"
+        android:gravity="center"
+        android:paddingLeft="@dimen/general_0px">
+
+        <TextView
+            android:id="@+id/middle_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/general_2px"
+            android:background="@color/red" />
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+
